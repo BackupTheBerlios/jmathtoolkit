@@ -1,0 +1,5 @@
+bin\Debug\csharp-sample.dll
+bin\Debug\csharp-sample.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\csharp-sample.dll
+obj\Debug\csharp-sample.pdb
