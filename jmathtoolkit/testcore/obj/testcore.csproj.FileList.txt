@@ -1,0 +1,7 @@
+bin\Debug\testcore.dll
+bin\Debug\testcore.pdb
+bin\Debug\core.dll
+bin\Debug\core.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\testcore.dll
+obj\Debug\testcore.pdb
