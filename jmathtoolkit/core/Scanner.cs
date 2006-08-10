@@ -13,7 +13,10 @@ namespace JMathToolkit.Core
              * Dieser Input besteht aus einer der beiden Operationen Addition und Subtraktion sowie Zahlen.
              */
         {
-            
+            //Preconditions
+            Debug.Assert(Input == null);
+            Debug.Assert(Input.Equals (""));
+            ///////////////////////////////
 
 
         }
