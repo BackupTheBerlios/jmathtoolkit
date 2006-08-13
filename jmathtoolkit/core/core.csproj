@@ -39,6 +39,9 @@
   </Target>
   -->
   <ItemGroup>
+    <Compile Include="Exceptions\EmptyStringException.cs" />
+    <Compile Include="Exceptions\NullStringException.cs" />
+    <Compile Include="Exceptions\StringContainsSpaceException.cs" />
     <Compile Include="Scanner.cs" />
   </ItemGroup>
   <ItemGroup>

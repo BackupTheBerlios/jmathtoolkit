@@ -1,6 +1,5 @@
 using System;
 using System.Text;
-using System.Diagnostics;
 
 namespace JMathToolkit.Core
 {
@@ -13,12 +12,9 @@ namespace JMathToolkit.Core
              * Dieser Input besteht aus einer der beiden Operationen Addition und Subtraktion sowie Zahlen.
              */
         {
-            //Preconditions
-            Debug.Assert(Input == null);
-            Debug.Assert(Input.Equals (""));
-            ///////////////////////////////
-
-
+            if (Input == null) throw new Exceptions.NullStringException();
+            if (Input.Equals("")) throw new Exceptions.EmptyStringException();
+            if (Input.Contains(" ")) throw new Exceptions.StringContainsSpaceException();
         }
 
     }
