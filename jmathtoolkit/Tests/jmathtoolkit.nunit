@@ -1,9 +1,0 @@
-﻿<NUnitProject>
-  <Settings activeconfig="Debug" appbase="F:\Dokumente\Visual Studio 2005\Projects\jmathtoolkit" />
-  <Config name="Debug" binpathtype="Auto">
-    <assembly path="testcore\bin\Debug\testcore.dll" />
-  </Config>
-  <Config name="Release" binpathtype="Auto">
-    <assembly path="testcore\bin\Release\testcore.dll" />
-  </Config>
-</NUnitProject>

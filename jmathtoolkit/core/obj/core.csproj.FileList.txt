@@ -1,5 +1,0 @@
-obj\Debug\ResolveAssemblyReference.cache
-bin\Debug\core.dll
-bin\Debug\core.pdb
-obj\Debug\core.dll
-obj\Debug\core.pdb
