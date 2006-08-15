@@ -24,11 +24,14 @@ public class ScannerTest extends TestCase {
 
     protected void tearDown() throws Exception {
     }
-
-    public static Test suite() {
-        TestSuite suite = new TestSuite(ScannerTest.class);
-        
-        return suite;
+    
+    public void testParseString(){
+        try{
+            Scanner.parseString(null);
+            fail();
+        } catch (Exception e) {
+            assertTrue(true);
+        }
     }
     
 }

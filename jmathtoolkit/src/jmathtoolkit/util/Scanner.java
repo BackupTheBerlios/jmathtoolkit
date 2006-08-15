@@ -15,8 +15,8 @@ package jmathtoolkit.util;
  */
 public class Scanner {
     
-    /** Creates a new instance of Scanner */
-    public Scanner() {
+    public static void parseString(String s){
+        
     }
     
 }
